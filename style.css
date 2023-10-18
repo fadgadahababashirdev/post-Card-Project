@@ -1,0 +1,76 @@
+ body{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        height:100vh;
+        background-color:#fff;
+
+
+} 
+
+.container{
+ height: 100vh;
+ width:340px;
+ background-color: black;
+ border-radius:12px;
+ box-shadow: 0 0 13px px;
+ color:white;
+ 
+}
+
+.post-image{
+    display: flex;
+    justify-content: space-around;
+    font-size: 5px;
+    font-weight:bolder;
+    font-family: arial;
+}
+
+
+.post-image img{
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    margin:23px;
+    float:left;
+}
+
+.hones{
+    margin:23px;
+}
+
+.profile-image img{
+    width:100%;
+    height:70vh;
+ 
+
+}
+.icon img{
+    width: 32px;
+    height:32px;
+}
+
+.container-icons{
+    display: flex;
+    background-color: azure;
+    padding:4px;
+    
+    
+
+}
+.container-icons p{
+
+    color:greenyellow;
+    font-weight: bolder;
+    margin: 10px;
+
+}
+.icon{
+    display: flex;
+    flex-direction:row;
+
+      
+
+    
+
+}
